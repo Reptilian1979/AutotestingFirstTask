@@ -10,17 +10,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
-// https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation group: 'org.testng', name: 'testng', version: '7.7.1'
+    testImplementation 'junit:junit:4.13'
 
 }
 
 test {
-    useTestNG()
+    useJUnit()
 
-}
-
-test {
-    useJUnitPlatform()
 }
