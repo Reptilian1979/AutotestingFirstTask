@@ -20,7 +20,3 @@ test {
     useTestNG()
 
 }
-
-test {
-    useJUnitPlatform()
-}
